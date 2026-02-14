@@ -4,13 +4,12 @@
   "description": "FitFlow - Family-friendly fitness and wellness tracking app",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint src --ext js,jsx",
-    "vercel-build": "npm ci && chmod +x node_modules/.bin/vite && npm run build"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint src --ext js,jsx"
+},
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
     "browser-image-compression": "^2.0.2",
