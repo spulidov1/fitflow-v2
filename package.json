@@ -9,6 +9,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "lint": "eslint src --ext js,jsx"
+  "vercel-build": "vite build"
 },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
